@@ -11,3 +11,4 @@ fn test_main_output() {
         .success()
         .stdout("Hello, world!\n");
 }
+// cargo test --package rust_ci_hello_world --test integration_test --  --show-output
